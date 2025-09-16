@@ -1,0 +1,34 @@
+# Compiled class file
+*.class
+
+# Package Files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar
+*.gz
+
+# IDE/Tooling files (optional, but often helpful)
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Maven target directory
+/target/
+
+# Gradle build directories and files
+/build/
+.gradle/
+!*.gradle-version # Keep the version file if you use it
+
+# Logs and temp files
+*.log
+tmp/
