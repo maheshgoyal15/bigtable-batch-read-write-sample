@@ -81,7 +81,7 @@ public class BigtableBatchRowReader {
         long totalTimeMs = Duration.between(start, end).toMillis();
 
         System.out.println("\n" + "=".repeat(50));
-        System.out.println("✅ **Read Complete!**");
+        System.out.println("**Read Complete!**");
         System.out.println("Total Rows Read: **" + readRowKeys.size() + "/" + TOTAL_ROW_KEYS + "**");
         System.out.println("Total Cells Read: **" + reader.totalCellsRead.get() + "**");
         System.out.println("Overall Time: **" + totalTimeMs + " ms**");
